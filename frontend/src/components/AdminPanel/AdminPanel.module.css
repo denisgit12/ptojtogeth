@@ -1,0 +1,122 @@
+.headBox{
+    width: 98.7vw;
+    /*background: white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 40vw;
+    height: 26vh;
+    border-radius: 20px;
+    border: 3px solid rgba(168, 166, 166, 0.42);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+
+}
+.boxFalse{
+    transition: 1s;
+    width: 80vw;
+    height: 20vh;
+    border-radius: 20px;
+    border: 3px solid rgba(168, 166, 166, 0.42);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lie{
+    position: absolute;
+    left: 55%;
+    height: 20vh;
+    width: 1px;
+    background: white;
+    z-index: -1;
+    transition: 2s;
+}
+
+.lieFalse{
+    transition: 1s;
+    position: absolute;
+    left: 30%;
+    height: 20vh;
+    width: 1px;
+    background: white;
+    z-index: -1;
+}
+
+.lieFalse2{
+    transition: 1s;
+    position: absolute;
+    left: 70%;
+    height: 20vh;
+    width: 1px;
+    background: white;
+    z-index: -1;
+}
+.desc{
+    flex: none;
+    justify-content: normal;
+    align-items: normal;
+}
+.span{
+    margin: 1px 0 0 14px;
+    font-size: 1vw;
+    font-family: "Agency FB";
+
+}
+
+.button {
+    margin: 2px;
+    color: rgba(16, 15, 15, 0.98);
+    text-decoration: none;
+    font-family: "Agency FB";
+    font-size: 1.9vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button::before {
+    margin-left: auto;
+}
+
+.button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #562b57;
+    display: block;
+    transition: 0.5s;
+}
+
+.button:hover::after, .button:hover::before {
+    width: 100%;
+}
+.boxButton button:nth-child(1){
+    width: 17vw;
+}
+.boxButton button:nth-child(2){
+    width: 5vw;
+}
+.boxButton button:nth-child(3){
+    width: 6vw;
+}
+
+.copied{
+    position: absolute;
+    display: flex;
+    margin: 10px 0 0 30px;
+    font-size: 1.3vw;
+    color: darkgrey;
+    font-family: "Agency FB";
+}
+.forgotPass{
+    margin-left: .6vw;
+    color: #03e9f4;
+    cursor: pointer;
+}

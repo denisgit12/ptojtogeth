@@ -1,0 +1,107 @@
+.headBoxComment{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.commentBox{
+    position: revert;
+    width: 50vw;
+    height: 10vw;
+    border-radius: 7px;
+    margin-top: 1.5vw;
+    border: 1px solid black;
+    margin-left: 1vw;
+    overflow-y: scroll;
+    overflow-scrolling: touch;
+    overflow-style: inherit;
+    box-shadow: 0 1px 1px 1px #6a13b2,
+    1px 0 2px 1px #6a13b2;
+
+}
+.commentBox::-webkit-scrollbar{
+    background: none;
+}
+.commentBox::-webkit-scrollbar-thumb{
+    background: slategray;
+    border-radius: 8px;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    margin-top: .6vw;
+    justify-content: space-around;
+    height: 2vw;
+}
+.hr{
+    margin-left: 1.5vw;
+    height: .1vw;
+    background: #57606f;
+    margin-top: -.4vw;
+}
+h3{
+    font-size: 1vw;
+}
+.boxText{
+    width: 50%;
+}
+.author{
+    width: 30%;
+
+}
+
+.form{
+    position: revert;
+    width: 40vw;
+    height: 4vw;
+    border-radius: 7px;
+    margin-top: 2vw;
+    margin-left: 1vw;
+
+}
+.a{
+    background: none;
+    display: inline-block;
+    padding: .3vw 1vw;
+    color: #03e9f4;
+    margin-left: .4vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    text-transform:uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+}
+.a:hover{
+    background: #03e9f4;
+    color: white;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.input{
+    border-radius: 5px;
+    background: none;
+    width: 18vw;
+    height: 2vw;
+    font-size: 1.4vw;
+    margin-left: .7vw;
+    padding-left: 1vw;
+}
+input{
+    font-family: "Agency FB";
+    letter-spacing: 1px;
+    font-size: 1.3vw;
+}
+
+.edit{
+    position: absolute;
+    left: 65vw;
+    margin-top: 6vw;
+    font-size: 1.2vw;
+    background: none;
+    color: #03e9f4;
+    width: 14vw;
+    font-family: "Agency FB";
+}
