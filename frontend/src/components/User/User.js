@@ -65,6 +65,7 @@ const User = ({page, nameQur,order, search, ord, setOrder, orders, setPage, setO
                         <Comments setOrderPage={setOrderPage} setPage={setPage} page={page} ord={ord} setOrder={setOrder} orders={orders} search={search} nameQur={nameQur} key={id} order={order} id={id}/>
                     </div>
             }
+
         </div>
 
     );
